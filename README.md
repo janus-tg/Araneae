@@ -30,4 +30,4 @@ Pull requests are welcome for adding more feautures or fixing exisiting issues.
 
 ## License
 
-[MIT](https://github.com/janus-tg/ML_heart_disease/blob/master/LICENSE)
+[MIT](https://github.com/janus-tg/Aranae/blob/master/LICENSE)
