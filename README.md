@@ -1,6 +1,12 @@
 # Araneae
 
 
+This is a python3 program that works as a Wikipedia crawler and utilizes BeautifulSoup and the requests modules. It goes through the entire Wikipedia page of the user entered URL and stores the information available on the wikipedia page as a .txt file on the system locally. 
+
+
+<img src="runtime.png" width="750">
+
+
 ## Setup
 
 
