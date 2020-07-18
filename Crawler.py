@@ -29,15 +29,15 @@ def wikiCrawler():
                 fp.write(link.text)
 
         while True:
-                us = input("Would you like to open the current text file? (Enter Yes or No): ")
+                userInput = input("Would you like to open the current text file? (Enter Yes or No): ")
 
-                if us == "Yes":
-                   with open(pageName.text + '.txt', 'r') as f:
+                if userInput == "Yes":
+                   with open(pageName.text + '.txt', 'r') as textFile:
                         print("\n\n")
-                        print(f.read())
+                        print(textFile.read())
                         break
 
-                elif us == "No":
+                elif userInput == "No":
                    print("File was created succesfully. Exiting program...")
                    break
 
