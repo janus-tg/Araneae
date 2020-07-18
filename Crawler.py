@@ -28,6 +28,7 @@ def wikiCrawler():
                 fp.write(link.text)
 
             print("File created succesfully!\n")
+
         #loop which runs until the user enters a correct input
         while True:
                 userInput = input("Would you like to open the current text file? (Enter Yes or No): ")
