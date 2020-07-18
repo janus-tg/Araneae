@@ -1,4 +1,4 @@
-# Aranae
+# Araneae
 
 
 ## Setup
