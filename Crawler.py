@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import os
 
 #wikipedia info crawler
 
@@ -28,12 +27,13 @@ def wikiCrawler():
             for link in links:
                 fp.write(link.text)
 
+        #loop which runs until the user enters a correct input
         while True:
                 userInput = input("Would you like to open the current text file? (Enter Yes or No): ")
 
                 if userInput == "Yes":
                    with open(pageName.text + '.txt', 'r') as textFile:
-                        print("\n\n")
+                        print("\nText file begins:\n")
                         print(textFile.read())
                         break
 
@@ -48,5 +48,6 @@ def wikiCrawler():
 
         print("Incorrect URL! Enter a correct URL.")
 
-print("Hi! Welcome to Aranae!")
-wikiCrawler()
+print("Hi! Welcome to Aranae!\n")
+print("This is a spiderbot that browses the user specified Wikipedia page and stores all the text of the page in a .txt file\n")
+wikiCrawler() #calling the crawler function
