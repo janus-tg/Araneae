@@ -27,6 +27,7 @@ def wikiCrawler():
             for link in links:
                 fp.write(link.text)
 
+            print("File created succesfully!\n")
         #loop which runs until the user enters a correct input
         while True:
                 userInput = input("Would you like to open the current text file? (Enter Yes or No): ")
@@ -38,7 +39,7 @@ def wikiCrawler():
                         break
 
                 elif userInput == "No":
-                   print("File was created succesfully. Exiting program...")
+                   print("Exiting program...")
                    break
 
                 else: 
@@ -48,6 +49,6 @@ def wikiCrawler():
 
         print("Incorrect URL! Enter a correct URL.")
 
-print("Hi! Welcome to Aranae!\n")
+print("Hi! Welcome to Araneae!")
 print("This is a spiderbot that browses the user specified Wikipedia page and stores all the text of the page in a .txt file\n")
 wikiCrawler() #calling the crawler function
