@@ -32,9 +32,9 @@ def wikiCrawler():
                 us = input("Would you like to open the current text file? (Enter Yes or No): ")
 
                 if us == "Yes":
-                   with open(pageName.text + '.txt', 'r') as f:
+                   with open(pageName.text + '.txt', 'r') as file:
                         print("\n\n")
-                        print(f.read())
+                        print(file.read())
                         break
 
                 elif us == "No":
@@ -48,5 +48,6 @@ def wikiCrawler():
 
         print("Incorrect URL! Enter a correct URL.")
 
-print("Hi! Welcome to Aranae!")
+print("Hi! Welcome to Aranae!\n This is a spiderbot which crawls a given Wikipedia URL and stores the information in a")
+print(".txt file and stores all the references for the Wikipedia article in a .csv file\n")
 wikiCrawler()
