@@ -3,6 +3,7 @@
 
 ## Setup
 
+
 ### Installation
 
 1. Install ```Python 3.7``` or above.
@@ -10,7 +11,8 @@
     - requests
     - bs4
     
-## Running the program
+    
+### Running the program
 
 1. Download the ```Crawler.py``` file.
 2. Open the folder containing the aforementioned file in your terminal (for MacOS and Linux) or command prompt (for Windows).
